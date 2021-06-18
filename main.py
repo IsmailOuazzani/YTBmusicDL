@@ -23,6 +23,10 @@ def download(files):
     Command.append("--add-metadata")
     # Add thumbnail
     Command.append("--embed-thumbnail")
+    # Retry infinitely in case someting is wrong
+    Command.append("--retries infinite")
+    # Wait 1s before giving up and try again
+    Command.append("--socket-timeout 1")
     # Clean the 'Musique' folder
     makefolder()
     # Place songs in 'Musique' folder 
