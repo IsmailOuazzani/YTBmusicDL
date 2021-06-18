@@ -20,18 +20,13 @@ Download main.py and playlist.txt and put them in the same folder.
  pip install youtube-dl  
  
  Download ffmpeg: https://www.gyan.dev/ffmpeg/builds/  
- Unzip it and open ffmpeg(YOUR VERSION)/bin  
- Move ffmpeg.exe, ffplay.exe, ffprobe.exe in the folder where you previously put main.py and playlist.txt
- 
- 
- 
- If you get an error with ffmpeg, use:  
- pip install ffmpeg  
- pip install ffprobe  
+ Unzip it and open: ffmpeg(YOUR VERSION)/bin  
+ Move ffmpeg.exe, ffplay.exe, ffprobe.exe into the folder where you previously put main.py and playlist.txt 
 
 # Use:
 Place youtube urls in the 'playlist.txt' document (1 url each line)  
 Start the program by doing: python main.py  
 
 # Modification
-youtube-dl documentation: https://github.com/ytdl-org/youtube-dl/blob/master/README.md#developer-instructions
+youtube-dl documentation: https://github.com/ytdl-org/youtube-dl/blob/master/README.md#developer-instructions  
+Please feel free to send me suggestions / ask questions, I would be happy to help if I can.
