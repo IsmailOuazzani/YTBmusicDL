@@ -21,7 +21,7 @@ Download main.py and playlist.txt and put them in the same folder.
  
  Download ffmpeg: https://www.gyan.dev/ffmpeg/builds/  
  Unzip it and open: ffmpeg(YOUR VERSION)/bin  
- Move ffmpeg.exe, ffplay.exe, ffprobe.exe into the folder where you previously put main.py and playlist.txt 
+ Move ffmpeg, ffplay, ffprobe into the folder where you previously put main.py and playlist.txt 
 
 # Use:
 Place youtube urls in the 'playlist.txt' document (1 url each line)  
