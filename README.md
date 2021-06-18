@@ -3,7 +3,7 @@ Python script using youtube-dl to automate mp3 downloading with relevant setting
 
 # Disclaimer
 This project was done for education purposes only. Please do not use it to download content you are not allowed to download.  
-The author of this program is not responsible for how you it.
+The author of this program is not responsible for how you use it.
 
 # Features
 - Download files as mp3 at the best quality available
