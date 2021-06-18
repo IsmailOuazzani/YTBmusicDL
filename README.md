@@ -4,8 +4,8 @@ Python script using youtube-dl to automate mp3 downloading with relevant setting
 
 # Installation:
  Install youtube-dl by typing in the cmd: pip install youtube-dl  
- If you get an error with ffmpeg, do: pip install ffmpeg  
-                                      pip install ffprobe  
+ If you get an error with ffmpeg, use: pip install ffmpeg  
+                                       pip install ffprobe  
 
 # Use:
 Place youtube urls in the 'playlist.txt' document (1 url each line)  
