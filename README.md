@@ -1,5 +1,12 @@
 # YTBmusicDL
-Python script using youtube-dl to automate mp3 downloading with relevant settings (metadata for titles, album, author ...).
+Python script using youtube-dl to automate mp3 downloading with relevant settings (metadata for titles, album, author ...).  
+
+# Features
+- Download files as mp3 at the best quality available
+- Add a title, album and the author in the files' metadata  
+- Add an Album cover to the file (the thumbnail of the video) 
+- Place all the files in a 'Music' directory  
+- Delete previous 'Music' folder and the files it contains when starting the program (can be disabled by creating the folder manually and removing line 27)
 
 
 # Installation:
