@@ -13,7 +13,7 @@ The author of this program is not responsible for how you use it.
 - Delete previous 'Music' folder and the files it contains when starting the program (can be disabled by creating the folder manually and removing line 27)
 
 
-# Installation:
+# Installation
 Download main.py and playlist.txt and put them in the same folder.  
 
  Install youtube-dl by typing in the cmd:  
@@ -23,7 +23,7 @@ Download main.py and playlist.txt and put them in the same folder.
  Unzip it and open: ffmpeg(YOUR VERSION)/bin  
  Move ffmpeg, ffplay, ffprobe into the folder where you previously put main.py and playlist.txt 
 
-# Use:
+# Use
 Place youtube urls in the 'playlist.txt' document (1 url each line)  
 Start the program by doing: python main.py  
 
