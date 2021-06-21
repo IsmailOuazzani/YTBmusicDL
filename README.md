@@ -26,7 +26,8 @@ Download main.py and playlist.txt and put them in the same folder.
 
 # Use
 Place youtube urls in the 'playlist.txt' document (1 url each line)  
-Start the program by doing: python main.py  
+Start the program by doing: python main.py
+Note: to get the title, album, author correctly, the video needs to have these information in the description. For example: https://youtu.be/CICIOJqEb5c
 
 # Modification
 youtube-dl documentation: https://github.com/ytdl-org/youtube-dl/blob/master/README.md#developer-instructions  
