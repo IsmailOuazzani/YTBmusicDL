@@ -12,7 +12,16 @@ The author of this program is not responsible for how you use it.
 - Place all the files in a 'Music' directory  
 - Delete previous 'Music' folder and the files it contains when starting the program (can be disabled by creating the folder manually and removing line 82)
 - History file that stores previously downloaded songs (can be disabled by removing line 92). The script will not download these songs again (can be disabled by removing line 86).
-
+For videos with the title structure AUTHOR - TITLE ...
+- If the title in the mp3 metadata contains this structure too, the script will remove the AUTHOR part and anything after the title such as (Official Video).
+- If the video does not contain metadata in the description, i.e. does not contain this:
+<img src="images/folder.PNG">
+- The author on the mp3 file will be the channel name, which is not always the song authors' name. The script will change the author using the title.
+## Example
+Without filter:
+<img src="images/beforefilter.PNG">
+With filter:
+<img src="images/after.PNG">
 
 # Installation
 Download main.py and playlist.txt and put them in the same folder.  
@@ -32,9 +41,9 @@ Place youtube urls in the 'playlist.txt' document (1 url each line).
 Start the program by typing in the cmd:
 ``` sh
 python main.py
-```  
+```   
 
-Note: to get the title, album, author correctly, the video needs to have these information in the description. [Example](https://youtu.be/CICIOJqEb5c)
+Note: the script will be correct on titles in the structure AUTHOR - TITLE, but not TITLE - AUTHOR (it will reverse them).
 
 # Modification
 [youtube-dl documentation](https://github.com/ytdl-org/youtube-dl/blob/master/README.md#developer-instructions)  
