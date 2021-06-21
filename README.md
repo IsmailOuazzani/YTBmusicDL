@@ -26,16 +26,16 @@ With filter:
 <img src="images/afterfilter.PNG">
 
 # Installation
-Download main.py and playlist.txt and put them in the same folder.  
+Download main.py,renamefiles.py and playlist.txt and put them in the same folder.  
 
- Install youtube-dl by typing in the cmd:
+ Install youtube-dl and mutagen by typing in the cmd:
  ```sh
  pip install youtube-dl  
  pip install mutagen
 ```
  
  Download [ffmpeg](https://www.gyan.dev/ffmpeg/builds/), unzip it and open: ffmpeg(YOUR VERSION)/bin  
- Move ffmpeg, ffplay, ffprobe into the folder where you previously put main.py and playlist.txt  
+ Move ffmpeg, ffplay, ffprobe into the folder where you previously put main.py, renamefiles.py and playlist.txt  
  Your folder should look like this:  
  <img src="images/folder.PNG">
 
