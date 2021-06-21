@@ -1,6 +1,7 @@
 import subprocess as sb
 import os
 import shutil
+import renamefiles
 
 PLAYLIST = "playlist.txt"
 HISTORY = "history.txt"
@@ -16,7 +17,7 @@ def makefolder():
 # Create a history file if it does not exist
 # Returns all the past urls
 def gethistory():
-    f = open(HISTORY, 'r')
+    f = open(HISTORY, 'w+')
     history_list = f.read()
     f.close()
     return history_list
@@ -90,6 +91,11 @@ def download(files):
 
     # Save urls to history
     save_to_history()
+
+    # Rename files to make the title and author accurate using the video's title 
+    # in case the youtube video's description did not contain this information
+    renamefiles.renamefiles(FOLDER)
+    
     return
 
 
