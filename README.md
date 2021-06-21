@@ -17,16 +17,18 @@ The author of this program is not responsible for how you use it.
 # Installation
 Download main.py and playlist.txt and put them in the same folder.  
 
- Install youtube-dl by typing in the cmd:  
+ Install youtube-dl by typing in the cmd:
+ '''
  pip install youtube-dl  
+ '''
  
  Download ffmpeg: https://www.gyan.dev/ffmpeg/builds/  
  Unzip it and open: ffmpeg(YOUR VERSION)/bin  
  Move ffmpeg, ffplay, ffprobe into the folder where you previously put main.py and playlist.txt 
 
 # Use
-Place youtube urls in the 'playlist.txt' document (1 url each line)  
-Start the program by doing: python main.py
+Place youtube urls in the 'playlist.txt' document (1 url each line).  
+Start the program by typing '''python main.py''' in the cmd.
 Note: to get the title, album, author correctly, the video needs to have these information in the description. For example: https://youtu.be/CICIOJqEb5c
 
 # Modification
