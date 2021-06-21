@@ -16,7 +16,7 @@ The author of this program is not responsible for how you use it.
 For videos with the title structure AUTHOR - TITLE (...)  
 - If the title in the mp3 metadata contains this structure too, the script will remove the AUTHOR part and anything after the title such as (Official Video).
 - If the video does not contain metadata in the description, i.e. does not contain this:
-<img src="images/folder.PNG">
+<img src="images/metadata.PNG">
 - The author on the mp3 file will be the channel name, which is not always the song authors' name. The script will change the author using the title.  
 
 #### Example
