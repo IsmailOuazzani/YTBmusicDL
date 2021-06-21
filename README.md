@@ -46,7 +46,7 @@ Start the program by typing in the cmd:
 python main.py
 ```   
 
-Note: the script will be correct on titles in the structure AUTHOR - TITLE, but not TITLE - AUTHOR (it will reverse them).
+**Note:** the script will be correct on titles in the structure AUTHOR - TITLE, but not TITLE - AUTHOR (it will reverse them).
 
 # Modification
 [youtube-dl documentation](https://github.com/ytdl-org/youtube-dl/blob/master/README.md#developer-instructions)  
