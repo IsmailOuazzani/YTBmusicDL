@@ -21,7 +21,7 @@ For videos with the title structure AUTHOR - TITLE ...
 Without filter:
 <img src="images/beforefilter.PNG">
 With filter:
-<img src="images/after.PNG">
+<img src="images/afterfilter.PNG">
 
 # Installation
 Download main.py and playlist.txt and put them in the same folder.  
