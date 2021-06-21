@@ -30,6 +30,7 @@ Download main.py and playlist.txt and put them in the same folder.
  Install youtube-dl by typing in the cmd:
  ```sh
  pip install youtube-dl  
+ pip install mutagen
 ```
  
  Download [ffmpeg](https://www.gyan.dev/ffmpeg/builds/), unzip it and open: ffmpeg(YOUR VERSION)/bin  
