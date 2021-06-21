@@ -22,7 +22,7 @@ Download main.py and playlist.txt and put them in the same folder.
  pip install youtube-dl  
 ```
  
- Download ffmpeg: https://www.gyan.dev/ffmpeg/builds/  
+ Download [ffmpeg](https://www.gyan.dev/ffmpeg/builds/)
  Unzip it and open: ffmpeg(YOUR VERSION)/bin  
  Move ffmpeg, ffplay, ffprobe into the folder where you previously put main.py and playlist.txt 
 
@@ -36,5 +36,5 @@ python main.py
 Note: to get the title, album, author correctly, the video needs to have these information in the description. For example: https://youtu.be/CICIOJqEb5c
 
 # Modification
-youtube-dl documentation: https://github.com/ytdl-org/youtube-dl/blob/master/README.md#developer-instructions  
+[youtube-dl documentation](https://github.com/ytdl-org/youtube-dl/blob/master/README.md#developer-instructions)  
 Please feel free to send me suggestions / ask questions, I would be happy to help if I can.
