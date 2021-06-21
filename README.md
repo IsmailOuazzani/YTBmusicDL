@@ -11,8 +11,9 @@ The author of this program is not responsible for how you use it.
 - Add an Album cover to the file (the thumbnail of the video) 
 - Place all the files in a 'Music' directory  
 - Delete previous 'Music' folder and the files it contains when starting the program (can be disabled by creating the folder manually and removing line 82)
-- History file that stores previously downloaded songs (can be disabled by removing line 92). The script will not download these songs again (can be disabled by removing line 86).
-For videos with the title structure AUTHOR - TITLE ...
+- History file that stores previously downloaded songs (can be disabled by removing line 92). The script will not download these songs again (can be disabled by removing line 86).  
+
+For videos with the title structure AUTHOR - TITLE (...)  
 - If the title in the mp3 metadata contains this structure too, the script will remove the AUTHOR part and anything after the title such as (Official Video).
 - If the video does not contain metadata in the description, i.e. does not contain this:
 <img src="images/folder.PNG">
