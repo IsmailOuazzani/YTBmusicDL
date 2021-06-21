@@ -10,7 +10,8 @@ The author of this program is not responsible for how you use it.
 - Add a title, album and the author in the files' metadata  
 - Add an Album cover to the file (the thumbnail of the video) 
 - Place all the files in a 'Music' directory  
-- Delete previous 'Music' folder and the files it contains when starting the program (can be disabled by creating the folder manually and removing line 31)
+- Delete previous 'Music' folder and the files it contains when starting the program (can be disabled by creating the folder manually and removing line 82)
+- History file that stores previously downloaded songs (can be disabled by removing line 92). The script will not download these songs again (can be disabled by removing line 86).
 
 
 # Installation
