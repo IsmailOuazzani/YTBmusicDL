@@ -33,7 +33,7 @@ Start the program by typing in the cmd:
 python main.py
 ```  
 
-Note: to get the title, album, author correctly, the video needs to have these information in the description.[Example](https://youtu.be/CICIOJqEb5c)
+Note: to get the title, album, author correctly, the video needs to have these information in the description. [Example](https://youtu.be/CICIOJqEb5c)
 
 # Modification
 [youtube-dl documentation](https://github.com/ytdl-org/youtube-dl/blob/master/README.md#developer-instructions)  
