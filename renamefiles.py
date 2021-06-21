@@ -48,16 +48,16 @@ def update_file_info(file, title, author, FOLDER):
 def renamefiles(FOLDER):
     for dirpath, dirnames,files in os.walk(FOLDER):
         for file in files:
-            filename = file[:len(file)-4] #remove '.mp3'
 
             # Get the author to compare with author in title
             # Because if the video does not contain the music info,
             # youtube-dl will take the channel as the author
             music = EasyID3(FOLDER + '/' + file)
+            default_title = music['title'][0]
             default_author = music['artist'][0]
             music.save()
 
-            title, author = dash_filter(filename, default_author)
+            title, author = dash_filter(default_title, default_author)
             title = remove_parenthesis(title)
             update_file_info(file, title, author, FOLDER)
 
