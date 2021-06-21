@@ -28,7 +28,11 @@ Download main.py and playlist.txt and put them in the same folder.
 
 # Use
 Place youtube urls in the 'playlist.txt' document (1 url each line).  
-Start the program by typing  ``` python main.py``` in the cmd.
+Start the program by typing in the cmd:
+``` sh
+python main.py
+```  
+
 Note: to get the title, album, author correctly, the video needs to have these information in the description. For example: https://youtu.be/CICIOJqEb5c
 
 # Modification
