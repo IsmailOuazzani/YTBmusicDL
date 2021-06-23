@@ -10,10 +10,10 @@ The author of this program is not responsible for how you use it.
 - Add a title, album and the author in the files' metadata  
 - Add an Album cover to the file (the thumbnail of the video) 
 - Place all the files in a 'Music' directory  
-- Delete previous 'Music' folder and the files it contains when starting the program (can be disabled by creating the folder manually and removing line 82 in main.py)
-- History file that stores previously downloaded songs (can be disabled by removing line 92 in main.py). The script will not download these songs again (can be disabled by removing line 86).  
+- Delete previous 'Music' folder and the files it contains when starting the program.
+- History file that stores previously downloaded songs. The script will not download these songs again.  
 
-For videos with the title structure AUTHOR - TITLE (...). Can be disabled by removing line 97 in main.py
+For videos with the title structure AUTHOR - TITLE (...). 
 - If the title in the mp3 metadata contains this structure too, the script will remove the AUTHOR part and anything after the title such as (Official Video).
 - If the video does not contain metadata in the description, i.e. does not contain this:
 <img src="images/metadata.PNG">
