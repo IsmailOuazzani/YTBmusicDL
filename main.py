@@ -25,7 +25,10 @@ def gethistory():
 # Remove urls that are already in the history
 def filterplaylist():
     history_list = gethistory()
-    playlist_list = open(PLAYLIST, 'r').read().replace(' ', '').splitlines()
+
+    playlist_file = open(PLAYLIST, 'r')
+    playlist_list = playlist_file.read().replace(' ', '').splitlines()
+    playlist_file.close()
 
     os.remove(PLAYLIST)
     f = open(PLAYLIST, 'a+') #open (or create if it doesnt exist) the file for appending
@@ -34,7 +37,7 @@ def filterplaylist():
 
     for url in playlist_list:
         if url not in history_list:
-            f.write(url)
+            f.write(url + ' \n')
             url_count += 1
         else:
             print(url + " already in history")
@@ -101,3 +104,4 @@ def download(files):
 
 if __name__ == '__main__':
     download(PLAYLIST)
+
